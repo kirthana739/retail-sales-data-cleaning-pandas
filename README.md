@@ -10,7 +10,7 @@ A hands-on data cleaning and analysis project built in Python with pandas. The n
 - Standardize text, parse dates and numbers, handle missing values, and remove duplicates.
 - Apply business-rule checks and flag potential outliers.
 - Demonstrate practical pandas selection, transformation, grouping, joining, date/time, string, and statistical methods.
-- Create analysis-ready data and export CSV and Excel reports.
+- Create an interactive sales dashboard and export CSV and Excel reports.
 
 ## Run in Google Colab
 
@@ -30,7 +30,7 @@ No external dataset download is needed. The notebook uses pandas, NumPy, and Mat
 4. **Transform and select** — practice column selection, `loc`, `iloc`, boolean filters, `query`, `map`, `apply`, lambda functions, and vectorized calculations.
 5. **Work with dates** — extract calendar fields, generate a date range, localize timestamps to `Asia/Kolkata`, convert them to UTC, and resample sales.
 6. **Combine and analyze** — demonstrate join types, aggregate sales by category and channel, reshape results, and calculate descriptive statistics.
-7. **Export results** — save CSV files and a multi-sheet Excel workbook. Time-zone-aware timestamps are written as ISO text in the Excel output because Excel does not store timezone-aware datetime values.
+7. **Build a dashboard and export results** — display KPI summaries and interactive Plotly charts, then save a standalone HTML dashboard, CSV files, and a multi-sheet Excel workbook. Time-zone-aware timestamps are written as ISO text in the Excel output because Excel does not store timezone-aware datetime values.
 
 ## Pandas topics covered
 
@@ -43,6 +43,7 @@ No external dataset download is needed. The notebook uses pandas, NumPy, and Mat
 - **Date and time:** `to_datetime`, year/month/day/weekday, date filtering and differences, `date_range`, time zones, `resample`, `rolling`, `shift`
 - **Strings and regex:** `lower`, `upper`, `title`, `strip`, `replace`, `contains`, `startswith`, `endswith`, `split`, `extract`, `len`
 - **Statistics:** mean, median, mode, sum, count, min, max, standard deviation, variance, quantile, correlation, covariance, cumulative sum/product, percent change, difference
+- **Visualization:** interactive Plotly dashboard with revenue KPIs, monthly trends, category/channel comparisons, and daily sales
 - **Additional methods:** `cut`, `qcut`, `explode`, `pipe`, memory usage
 
 ## Example assumptions
@@ -66,6 +67,7 @@ After running all cells, the notebook writes:
 - `sales_summary.csv` — category and channel summary
 - `daily_sales.csv` — daily order, unit, and revenue totals
 - `retail_cleaning_outputs.xlsx` — the cleaned data and summaries in separate sheets
+- `retail_sales_dashboard.html` — interactive dashboard that opens in a web browser
 
 ## Limitations and next steps
 
