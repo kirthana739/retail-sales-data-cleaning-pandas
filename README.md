@@ -64,12 +64,11 @@ For real business data, confirm these assumptions with the data owner and adapt 
 After running all cells, the notebook writes:
 
 ## Dashboard Screenshots
+![Monthly Net Sales](monthly%20net%20sales.png)
 
-![Retail Sales Dashboard](screenshots/sales-dashboard.png)
+![Sales Dashboard 2](sales%20dashboard%202.png)
 
-![Sales Dashboard Details](screenshots/sales-dashboard-2.png)
-
-![Monthly Net Sales](screenshots/monthly-net-sales.png)
+![Sales Dashboard](sales%20dashboard.png)
 
 ## Limitations and next steps
 
