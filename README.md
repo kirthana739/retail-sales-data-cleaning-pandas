@@ -73,6 +73,7 @@ The generated sample is useful for practicing pandas, but it does not establish 
 
 ## References
 
+- [W3Schools Pandas Tutorial](https://www.w3schools.com/python/pandas_tutorial.asp) — beginner-friendly lessons and examples.
 - [Pandas guide: missing data](https://pandas.pydata.org/docs/user_guide/missing_data.html)
 - [Pandas guide: text data](https://pandas.pydata.org/docs/user_guide/text.html)
 - [Pandas guide: time series](https://pandas.pydata.org/docs/user_guide/timeseries.html)
