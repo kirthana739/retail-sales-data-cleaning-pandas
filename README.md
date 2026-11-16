@@ -63,11 +63,13 @@ For real business data, confirm these assumptions with the data owner and adapt 
 
 After running all cells, the notebook writes:
 
-- `cleaned_retail_orders.csv` — cleaned order-level data
-- `sales_summary.csv` — category and channel summary
-- `daily_sales.csv` — daily order, unit, and revenue totals
-- `retail_cleaning_outputs.xlsx` — the cleaned data and summaries in separate sheets
-- `retail_sales_dashboard.html` — interactive dashboard that opens in a web browser
+## Dashboard Screenshots
+
+![Retail Sales Dashboard](screenshots/sales-dashboard.png)
+
+![Sales Dashboard Details](screenshots/sales-dashboard-2.png)
+
+![Monthly Net Sales](screenshots/monthly-net-sales.png)
 
 ## Limitations and next steps
 
